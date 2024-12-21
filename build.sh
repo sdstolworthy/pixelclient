@@ -7,7 +7,7 @@
 
 ESPTOOL="python /mnt/code/esp32/esptool/esptool.py"
 if [ -z "$IDF_DOCKER_IMAGE" ]; then
-    IDF_DOCKER_IMAGE="espressif/idf:release-v5.2"
+    IDF_DOCKER_IMAGE="espressif/idf:release-v5.3"
 fi
 echo "Using esp-idf image: $IDF_DOCKER_IMAGE"
 
